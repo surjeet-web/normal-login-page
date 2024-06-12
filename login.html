@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Your Website</title>
+    <meta name="description" content="Sign up for an account on Your Website">
+
+    <!-- Favicon (the small icon displayed in the browser tab) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+
+    <!-- Open Graph Meta Tags (for social sharing) -->
+    <meta property="og:title" content="Sign Up - Your Website">
+    <meta property="og:description" content="Sign up for an account on Your Website">
+    <meta property="og:image" content="https://example.com/og-image.jpg">
+    <meta property="og:url" content="https://example.com/signup">
+
+    <!-- Twitter Meta Tags (for social sharing on Twitter) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sign Up - Your Website">
+    <meta name="twitter:description" content="Sign up for an account on Your Website">
+    <meta name="twitter:image" content="https://example.com/twitter-image.jpg">
+
+
+    <!-- Additional meta tags, stylesheets, or scripts can be added as needed -->
+    <link rel="stylesheet" href="login.css">
+<style>
+
+        * {
+            box-sizing: border-box;
+        }
+        
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="tel"],
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group input[type="tel"] {
+            width: 49%;
+        }
+
+        .form-group select {
+            width: 100%;
+        }
+
+        .form-group select,
+        .form-group input[type="tel"],
+        .form-group input[type="text"] {
+            margin-top: 5px;
+        }
+
+        .form-group .code {
+            display: flex;
+        }
+
+        .form-group .code input {
+            flex: 1;
+        }
+
+        .form-group input[type="email"] {
+            width: 100%;
+        }
+
+        .form-group input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .form-group input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+
+</head>
+
+<body>
+    <div class="back"></div>
+    <!-- Your sign-up page content goes here -->
+    <div class="container">
+
+        <section>
+            <div class="section">
+                <div class="right">
+                    <h1>general information</h1>
+                    <div class="form">
+                        <form action="">
+                            <div class="firmgroup input w">
+                                <label for="">title</label>
+                                <input type="text" placeholder="your first name">
+                                <input type="text" placeholder="your first name">
+                            </div>
+                
+                            <div class="firmgroup s input">
+                                <label for="position">position</label>
+                                <input type="text" placeholder="company name">
+                                <div class="firmgroup r ">
+                                <input type="text" placeholder="arina">
+                               
+                                    <input type="text" id="empInput" name="employment" placeholder="employee"  list="empList">
+                                    <datalist id="empList">
+                                        <option value="engineer">engineer</option>
+                                        <option value="doctor">doctor</option>
+                                        <option value="pilot">pilot</option>
+                                    </datalist>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+
+
+
+
+
+
+                <div class="left centre ">
+                    <h1>contact details</h1>
+
+                    <div class="form">
+                        <form action="">
+                            <div class="firmg  input ">
+                                <!-- <input type="text" value="text" class="d" placeholder="street  nr"> -->
+                                <input type="text" placeholder="adistional information" class="d" >
+                            </div>
+                            <div class=" input y ">
+                                <input type="tel" placeholder="zip code" maxlength="6" minlength="6" required class="y" >
+
+                           
+                            
+                                <select name="" id="place">
+                                    <option value="">pakistan</option>
+                                    <option value="">afganistan</option>
+                                    <option value="">china</option>
+                                    <option value="">nepal</option>
+                                </select>
+
+                            </div>
+                                <select name="" id="country">
+
+                                    <option value="">russia</option>
+                                    <option value="">us</option>
+                                    <option value="">usa</option>
+                                    <option value="">britain</option>
+                                </select>
+                            
+                            <div class="code">
+                                <input type="tel" name="" id="" placeholder="code +" maxlength="3" required>
+                                <input type="tel" placeholder="your number" maxlength="10">
+
+                            </div>
+
+                            <div class="firmg input">
+                                <input type="email" name="email" id="" placeholder=" enter your email">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+</body>
+
+</html>

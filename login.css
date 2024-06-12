@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("10Pixel-Bold.woff") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {font-family: 'unikee';
+src: url("Snidely.woff") format("truetype");
+font-weight: normal;
+font-style: normal;
+} 
+:root {}
+
+* {box-sizing: border-box;
+margin: 0;
+padding: 0;
+border: none;
+border-radius: ;
+
+
+}
+
+
+
+section {
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.392);
+
+ 
+}
+
+
+.back {
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    z-index: 1; /* Set a lower z-index for the background */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 2; /* Set a higher z-index for the container to make it appear on top */
+  
+}
+
+
+/*  */
+
+.back::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(150, 148, 148, 0.3), rgba(161, 156, 156, 0.3)); /* Adjust the opacity (0.3) as needed */
+    
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    
+padding: 10px;
+
+}
+.left input{
+  background-color: transparent;
+  
+}
+.left input[type="text"]::placeholder,
+.s input[type="text"]::placeholder {
+    color: white;
+}
+
+.y input[type="text"]::placeholder{
+    color: white;
+}
+
+    .right{
+        height: 100%;
+        width: 50%;
+   
+    text-transform: capitalize;
+    font-family: roboto;
+    background-color: white;
+    color: rgb(55, 225, 55);
+    padding:20px ;
+    
+    }
+.form{
+    padding: 40px;
+    
+}
+
+    .right label{
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(rgb(182, 206, 125),rgb(242, 126, 64));
+        -webkit-background-clip: text;
+        font-size: 20px;
+        -webkit-text-stroke: 1px rgba(255, 0, 187, 0.642);
+        
+    }
+
+    .right input{
+        /* max-width: 100%;    sir why is this not working  */
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+        border: no;
+    }
+    
+
+
+.section{
+    background-color: rgba(240, 248, 255, 0.045);
+height: 600px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  
+ 
+}
+
+
+
+.right h1{
+
+
+font-family: unikee;
+padding-top: 40px;
+padding-left: 40px;
+
+}
+.right label {
+    display: block;
+}
+
+
+
+.w{
+    width: 300px;
+    display:flex ;
+
+    ;
+    
+        }
+    
+        .w input{
+margin-left: -40px;
+            margin-top: 25px;
+        }
+
+
+        /* sir if i add another add class in this css code is working in=s not working */
+        .firmgroup label{
+            border-bottom:1px solid rgba(33, 31, 31, 0.571) ;
+
+        }
+
+
+        .s input[type="text"] {
+            width: 100%; /* Set the width to 100% to make it block-level */
+            padding: 10px; /* Adjust the padding for the desired size */
+            margin-bottom: 10px; /* Add spacing between input fields */
+            display: block; /* Make them display as block elements */
+        }
+        .s input[type="text"]::placeholder{
+
+            font-size: large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 400;
+        }
+
+
+        .r,.y{
+            display: flex;
+        }
+        
+        .y{
+            display: flex;
+        }
+
+  
+        
+        
+
+           
+        
